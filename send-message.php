@@ -11,7 +11,7 @@ if ($bot->command['action'] == 'checkbot') {
    $bot->savelog('Bot Start with runcount : '.$bot->runCount);
    while ($bot->login()) {
       $bot->work();
-      // $bot->get_newprofile();
+      $bot->get_newprofile();
    }
 }
 ?>
